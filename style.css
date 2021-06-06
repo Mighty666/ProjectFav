@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color: magenta;
+    padding-top: 50px;
+}
+div{
+    margin-top: 15px;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+}
+.section-style{
+    margin-right: 25px;
+    margin-left: 25px;
+    background: white;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
+#animereview{
+    font-size: 30px;
+}
+#luffyreview{
+    font-size: 30px;
+}
+#ashreview{
+    font-size: 30px;
+}
+ul{
+    top: 0px;
+    z-index: 200000000;
+    position: fixed;
+    cursor: pointer;
+    background-color: magenta   ;
+    
+}
+.link{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+    color: darkblue;
+    text-shadow: 2px 2px brown;
+}
+
+.link:hover{
+    background-color: crimson;
+}
+img{
+    width: 50%;
+}
+img {
+    transition: transform .2s
+}
+
+img:hover {
+    transform: scale(1.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#map{
+    width: 100%;
+    margin-top: 20px;
+}
